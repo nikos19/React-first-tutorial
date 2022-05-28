@@ -1,0 +1,15 @@
+
+Make new repo and push the existing code again to the new repo      
+(https://github.community/t/nothing-to-commit-working-tree-clean/2594/3)
+
+    git init doesn’t initialize if you already have a .git/ folder in your repository. So, for your case, do -
+
+    (1) rm -rf .git/
+
+    (2) git init
+
+    (3) git remote add origin https://repository.remote.url 1.5k
+
+    (4) git commit -m “Commit message”
+
+    (5) git push -f origin master
