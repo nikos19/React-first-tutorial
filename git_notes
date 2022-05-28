@@ -1,5 +1,5 @@
 
-Make new repo and push the existing code again to the new repo      
+1)Make new repo and push the existing code again to the new repo      
 (https://github.community/t/nothing-to-commit-working-tree-clean/2594/3)
 
     git init doesn’t initialize if you already have a .git/ folder in your repository. So, for your case, do -
